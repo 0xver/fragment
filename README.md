@@ -1,6 +1,6 @@
 # Fragment
 
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) ![build](https://github.com/ntkme/github-buttons/workflows/build/badge.svg)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Accelerate frontend development with Fragment
 Fragment builds frontend <a href="https://ethereum.org">Ethereum</a> dapps by creating components that communicate with <a href="https://metamask.io">MetaMask</a> and smart contracts on the blockchain. <a href="https://ethereum.org/en/dapps">Dapps</a> have their backend code (smart contracts) running on a decentralized network and not a centralized server. They use the Ethereum blockchain for data storage and smart contracts for their logic. <a href="https://ethereum.org/en/developers/docs/web2-vs-web3">Web3</a> refers to decentralized applications (dapps) that run on the blockchain.
