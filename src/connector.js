@@ -1,8 +1,8 @@
-import React from "react";
+import React from "react"
 
 class Connector extends React.Component {
   handleClick = () => {
-    window.ethereum.request({ method: "eth_requestAccounts" });
+    window.ethereum.request({ method: "eth_requestAccounts" })
   }
   render() {
 
@@ -31,8 +31,8 @@ class Connector extends React.Component {
           </a>
         }
       </React.Fragment>
-    );
+    )
   }
 }
 
-export default Connector;
+export default Connector
