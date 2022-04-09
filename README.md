@@ -18,22 +18,6 @@ Using HTML ID attributes, Fragment accelerates frontend development allowing des
 To create fragments for smart contract functions, add the contract's ABI to the `/src` folder.
 
 # Installation
-
-### (Optional) Preinstallation
-Install <a href="https://brew.sh">Homebrew</a> for easy global package management
-```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-Install node.js
-```
-brew node
-```
-Install GitHub CLI
-```
-brew gh
-```
-
-## Install Fragment
 Clone Fragment
 ```
 gh repo clone 0xver/fragment
@@ -47,16 +31,16 @@ Launch project on local network http://localhost:3000
 npm start
 ```
 
-## Building on Webflow
+# Building on Webflow
 Embed the React packages into the head tag section of the page
 ```
-<script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react@17.0.0/umd/react.production.min.js"></script>
 ```
 ```
-<script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@17.0.0/umd/react-dom.production.min.js"></script>
 ```
 Deploy bundle.js onto <a href="https://www.digitalocean.com/products/spaces">Spaces Object Storage</a> and embed it into the before /body tag section of the page
 ```
 <script src="https://<YOUR-SPACE-NAME>.<REGION>.digitaloceanspaces.com/bundle.js"></script>
 ```
-You have now embedded Fragment and can assign HTML targets in the Webflow designer environment!
+You have now embedded the components onto your website and can assign HTML targets in the Webflow designer environment. Create classes inside fragments to stylize the components.
